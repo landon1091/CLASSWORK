@@ -28,7 +28,10 @@ class Person {
 }
 
 let goodGuy = new Person("Neo", "the one")
+```
 
+## Extend the person object
+```javascript
 class SuperHero extends Person {
     constructor (name, heroName, superPower) {
         super(name)  //super lets your use the same name property from person  
